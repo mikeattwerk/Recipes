@@ -88,11 +88,11 @@ div.Page
 	page: WordSection1;
 	text-align: left;
 	padding: 0px;
+	max-width: 1000px;
 	width: 70%;
 	margin-top: 3em;
 	margin-right: auto;
 	margin-left: auto;
-	min-width:700px;
 }
 img {
 	max-width: 100%;
