@@ -119,6 +119,7 @@ ol, ul, li
 	font-size: 80%;
 }
 .innavbar {
+	max-width: 1000px;
 	width: 70%;
 	margin: 0 auto;
 	padding: 0;
