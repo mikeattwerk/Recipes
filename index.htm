@@ -50,8 +50,8 @@ a:hover
 }
 p
 	{
-	margin-right: 0cm;
-	margin-left: 0cm;
+	margin-right: 0;
+	margin-left: 0;
 	font-size: 1em;
 	font-family: Helvetica, Arial, sans-serif;
 	color: #000;
@@ -80,12 +80,17 @@ div.Page
 	margin-left: auto;
 }
  /* List Definitions */
-ol
-	{margin-bottom:0;}
-ul
-	{margin-bottom:0;}
+ol, ul, li
+	{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
 body {
 	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #000;
+	line-height: 120%;
 }
 .backto {
 	font-size: 80%;
@@ -104,10 +109,21 @@ body {
 <h1>Recipes I liked, <br>
 or easy to cook, <br>
 or I want to try</h1>
-
+<h2>On this page</h2>
+<ul>
+  <li><a href="#HomemadeEnglishMuffins">Homemade English Muffins</a></li>
+  <li><a href="#NoBakeCookieRecipe">No-Bake Cookie Recipe</a></li>
+  <li><a href="#SimpleVanillaCupcakes">Simple Vanilla Cupcakes</a></li>
+  <li><a href="#HomemadeJamCroissants">Homemade Jam Croissants</a></li>
+  <li><a href="#EverythingBagels">Everything Bagels</a></li>
+  <li><a href="#PieCrustCookies">Pie Crust Cookies</a></li>
+  <li><a href="#ThinCrustPizzaDough">Thin Crust Pizza Dough (Yeast-Free!)</a></li>
+  <li><a href="#FiveMinuteOatmeal">5 Minute Oatmeal</a></li>
+  <li><a href="#RoastedSweetPotatoesBlackBeans">Roasted Sweet Potatoes + Black Beans</a></li>
+</ul>
 <p>&nbsp;</p>
 
-<h2>Homemade English Muffins</h2>
+<h2><a id="HomemadeEnglishMuffins"></a>Homemade English Muffins</h2>
 
 <p><img alt="" width="400" height="604" id="_x0000_i1065"
 src="Assets/Recipes-1.jpg"></p>
@@ -172,7 +188,7 @@ src="Assets/Recipes-4.jpg"></p>
 
 <p class="backto"><a href="#backtotop">Back to top &#8593;</a></p>
 
-<h2>No-Bake Cookie Recipe </h2>
+<h2><a id="NoBakeCookieRecipe"></a>No-Bake Cookie Recipe</h2>
 
 <p><img alt="" width="400" height="600" id="_x0000_i1061"
 src="Assets/Recipes-5.jpg"></p>
@@ -238,7 +254,7 @@ chopped coconut flakes or nuts.</p>
 
 <p class="backto"><a href="#backtotop">Back to top &#8593;</a></p>
 
-<h2>Simple Vanilla Cupcakes</h2>
+<h2><a id="SimpleVanillaCupcakes"></a>Simple Vanilla Cupcakes</h2>
 
 <p><img alt="" width="400" height="265" id="_x0000_i1057"
 src="Assets/Recipes-9.jpg"></p>
@@ -261,7 +277,7 @@ very sweet, add a little more.) <br>
 
 <p class="backto"><a href="#backtotop">Back to top &#8593;</a></p>
 
-<h2>Домашние рогалики с повидлом</h2>
+<h2><a id="HomemadeJamCroissants"></a>Домашние рогалики с повидлом</h2>
 
 <p><img alt="" width="400" height="297" id="_x0000_i1056"
 src="Assets/Recipes-10.jpg"></p>
@@ -320,7 +336,7 @@ src="Assets/Recipes-14.jpg"></p>
 
 <p class="backto"><a href="#backtotop">Back to top &#8593;</a></p>
 
-<h2>Everything bagels</h2>
+<h2><a id="EverythingBagels"></a>Everything bagels</h2>
 
 <p><img width="400" height="470" id="_x0000_i1051"
 src="Assets/Recipes-15.jpg" alt="Описание: Everything Bagels"></p>
@@ -396,7 +412,7 @@ sandwich for lunch. :) Enjoy! xo. Emma</p>
 
 <p class="backto"><a href="#backtotop">Back to top &#8593;</a></p>
 
-<h2>Try this: Pie crust cookies</h2>
+<h2><a id="PieCrustCookies"></a>Pie crust cookies</h2>
 
 <p><img alt="" width="400" height="600" id="1"
 src="Assets/Recipes-23.jpg"></p>
@@ -467,7 +483,7 @@ src="Assets/Recipes-28.jpg"></p>
 
 <p class="backto"><a href="#backtotop">Back to top &#8593;</a></p>
 
-<h2>Thin crust pizza dough (yeast-free!)</h2>
+<h2><a id="ThinCrustPizzaDough"></a>Thin crust pizza dough (yeast-free!)</h2>
 
 <p><img alt="" width="400" height="600" id="25"
 src="Assets/Recipes-29.jpg"></p>
@@ -543,7 +559,7 @@ Laura</p>
 
 <p class="backto"><a href="#backtotop">Back to top &#8593;</a></p>
 
-<h2>5 minute oatmeal</h2>
+<h2><a id="FiveMinuteOatmeal"></a>5 minute oatmeal</h2>
 
 <p><img alt="" width="400" height="633" id="7"
 src="Assets/Recipes-34.jpg"></p>
@@ -614,7 +630,7 @@ src="Assets/Recipes-38.jpg"></p>
 
 <p class="backto"><a href="#backtotop">Back to top &#8593;</a></p>
 
-<h2>Roasted sweet potatoes + black beans</h2>
+<h2><a id="RoastedSweetPotatoesBlackBeans"></a>Roasted sweet potatoes + black beans</h2>
 
 <p><img alt="" width="400" height="633" id="12"
 src="Assets/Recipes-39.jpg"></p>
