@@ -118,6 +118,10 @@ ol, ul, li
 	padding: 0;
 	text-align: left;
 }
+.clear {
+	clear:both;
+	/*display:none;*/
+}
 .navbar li {
 	float: left;
 	margin-right: 2em;
