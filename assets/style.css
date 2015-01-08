@@ -89,7 +89,7 @@ div.Page
 	text-align: left;
 	padding: 0px;
 	max-width: 1000px;
-	width: 70%;
+	width: 85%;
 	margin-top: 3em;
 	margin-right: auto;
 	margin-left: auto;
@@ -120,7 +120,7 @@ ol, ul, li
 }
 .innavbar {
 	max-width: 1000px;
-	width: 70%;
+	width: 85%;
 	margin: 0 auto;
 	padding: 0;
 	text-align: left;
