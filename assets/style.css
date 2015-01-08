@@ -93,7 +93,12 @@ div.Page
 	margin-right: auto;
 	margin-left: auto;
 }
- /* List Definitions */
+img {
+	max-width: 100%;
+	height:auto;
+}
+
+/* List Definitions */
 ol, ul, li
 	{
 	margin: 0;

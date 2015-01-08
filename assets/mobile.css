@@ -82,6 +82,10 @@ p.Ingredients, li.Ingredients, div.Ingredients
 	font-style: italic;
 	color: #000;
 }
+img {
+	max-width: 100%;
+	height:auto;
+}
 /* Page Definitions */
 div.Page
 	{
@@ -113,7 +117,7 @@ ol, ul, li
 	font-size: 80%;
 }
 .innavbar {
-	width: 70%;
+	width: 90%;
 	margin: 0 auto;
 	padding: 0;
 	text-align: left;
@@ -121,6 +125,10 @@ ol, ul, li
 .navbar li {
 	float: left;
 	margin-right: 2em;
+}
+.clear {
+	clear:both;
+	/*display:none;*/
 }
 .toc {
 	font-size: 80%;
