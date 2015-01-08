@@ -76,7 +76,7 @@ p.Ingredients, li.Ingredients, div.Ingredients
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0.8em;
-	margin-left: 3em;
+	margin-left: 5%;
 	line-height: 120%;
 	font-size: 1em;
 	font-style: italic;
@@ -92,6 +92,7 @@ div.Page
 	margin-top: 3em;
 	margin-right: auto;
 	margin-left: auto;
+	min-width:700px;
 }
 img {
 	max-width: 100%;
@@ -129,7 +130,7 @@ ol, ul, li
 }
 .navbar li {
 	float: left;
-	margin-right: 2em;
+	margin-right: 5%;
 }
 .toc {
 	font-size: 80%;
