@@ -130,6 +130,8 @@ ol, ul, li
 	width: 20%;
 	margin-right: 5%;
 	float: left;
+	padding: 1em 0;
+	height: 100%;
 }
 #recipesnav, #musicnav, #filmsnav {
 	width: 20%;
