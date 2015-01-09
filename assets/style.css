@@ -5,8 +5,9 @@ body {
 	font-family: Helvetica, Arial, sans-serif;
 	color: #000;
 	line-height: 120%;
-	margin:0;
-	padding:0;
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
 }
 h1
 	{
@@ -15,7 +16,7 @@ h1
 	margin-bottom: 0.6em;
 	margin-left: 0;
 	line-height: 120%;
-	font-size: 2.5em;
+	font-size: 250%;
 	font-family: Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -28,7 +29,7 @@ h2
 	margin-bottom: 0.6em;
 	margin-left: 0;
 	line-height: 120%;
-	font-size: 1.5em;
+	font-size: 160%;
 	font-family: Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -41,7 +42,7 @@ h3
 	margin-bottom: 0.6em;
 	margin-left: 0;
 	line-height: 120%;
-	font-size: 1.15em;
+	font-size: 110%;
 	font-family: Helvetica, Arial, sans-serif;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -66,7 +67,6 @@ p
 	{
 	margin-right: 0;
 	margin-left: 0;
-	font-size: 1em;
 	font-family: Helvetica, Arial, sans-serif;
 	color: #000;
 	line-height: 120%;
@@ -82,6 +82,12 @@ p.Ingredients, li.Ingredients, div.Ingredients
 	font-style: italic;
 	color: #000;
 }
+img {
+	max-width: 100%;
+	height:auto;
+	border-radius: 4px;
+}
+
 /* Page Definitions */
 div.Page
 	{
@@ -94,12 +100,14 @@ div.Page
 	margin-right: auto;
 	margin-left: auto;
 }
-img {
-	max-width: 100%;
-	height:auto;
-	border-radius: 4px;
+.footer {
+	max-width: 1000px;
+	width: 85%;
+	margin: 0 auto;
+	padding: 3em 0;
+	text-align: left;
+	font-size: 90%;
 }
-
 /* List Definitions */
 ol, ul, li
 	{
@@ -112,6 +120,29 @@ ol, ul, li
 .backto {
 	font-size: 80%;
 	padding-bottom: 2em;
+}
+#mainnav {
+	width: 100%;
+}
+#mainnav li {
+	display: block;
+	width: 20%;
+	margin-right: 5%;
+	float: left;
+}
+#recipesnav, #musicnav, #filmsnav {
+	width: 20%;
+	margin-right: 5%;
+	float: left;
+	font-size: 90%;
+}
+#recipesnav {
+	margin-left: 25%;
+}
+#recipesnav li, #musicnav li, #filmsnav li {
+	display: block;
+	float: left;
+	width: 100%;
 }
 .navbar {
 	margin: 0;
@@ -135,6 +166,5 @@ ol, ul, li
 	margin-right: 5%;
 }
 .toc {
-	font-size: 80%;
+	font-size: 90%;
 }
-

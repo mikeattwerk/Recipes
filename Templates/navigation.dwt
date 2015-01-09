@@ -1,15 +1,15 @@
 <!doctype html>
-<html><!-- InstanceBegin template="/Templates/navigation.dwt" codeOutsideHTMLIsLocked="false" -->
+<html>
 
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="../assets/style.css" rel="stylesheet" type="text/css">
-<!-- InstanceBeginEditable name="doctitle" -->
+<!-- TemplateBeginEditable name="doctitle" -->
 <title>RECIPES I LIKED, OR EASY TO COOK, OR I WANT TO TRY</title>
-<!-- InstanceEndEditable -->
-<!-- InstanceBeginEditable name="head" -->
-<!-- InstanceEndEditable -->
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
 </head>
 
 <body lang="EN-US">
@@ -17,16 +17,16 @@
 <a id="backtotop"></a>
   <ul id="mainnav">
     <li><a href="../index.htm">&#8592; Go home</a></li>
-    <li><a href="index.htm">Recipes</a></li>
+    <li><a href="../recipes/index.htm">Recipes</a></li>
     <li>Music</li>
     <li>Films</li>
   </ul>
   <ul id="recipesnav">
-      <li><a href="sweeterthansugar/index.htm">Sweeter than Sugar</a></li>
-      <li><a href="breadcrumbs/index.htm">Breadcrumbs</a></li>
+      <li><a href="../recipes/sweeterthansugar/index.htm">Sweeter than Sugar</a></li>
+      <li><a href="../recipes/breadcrumbs/index.htm">Breadcrumbs</a></li>
       <!-- li><a href="../recipes/meetthemeat/index.htm">Meet the Meat</a></li -->
-      <li><a href="veganalike/index.htm">Vegan Alike</a></li>
-      <li><a href="quickies/index.htm">Quickies</a></li>
+      <li><a href="../recipes/veganalike/index.htm">Vegan Alike</a></li>
+      <li><a href="../recipes/quickies/index.htm">Quickies</a></li>
       <!-- li><a href="../recipes/drunkinlove/index.htm">Drunk in Love</a></li -->
   </ul>
   <!-- ul id="musicnav">
@@ -43,26 +43,10 @@
   <br class="clear">
 
 </div></div>
-<!-- InstanceBeginEditable name="Main Content" -->
-<div class="Page">
-<h1>Recipes I liked, <br>
-or easy to cook, <br>
-or I want to try</h1>
-
-<h3>Dive in</h3>
-
-<ul class="toc">
-    <li><a href="sweeterthansugar/index.htm">Sweeter than Sugar</a></li>
-    <li><a href="breadcrumbs/index.htm">Breadcrumbs</a></li>
-    <!-- li><a href="meetthemeat/index.htm">Meet the Meat</a></li -->
-    <li><a href="veganalike/index.htm">Vegan Alike</a></li>
-    <li><a href="quickies/index.htm">Quickies</a></li>
-    <!--li><a href="drunkinlove/index.htm">Drunk in Love</a></li -->
-</ul>
-
-</div>
-<!-- InstanceEndEditable -->
+<!-- TemplateBeginEditable name="Main Content" -->
+<div class="Page"></div>
+<!-- TemplateEndEditable -->
 <div class="footer">&copy;&nbsp;2015 Some Life Here &amp;&nbsp;Now.</div>
 </body>
 
-<!-- InstanceEnd --></html>
+</html>
