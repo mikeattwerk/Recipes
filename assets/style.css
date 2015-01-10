@@ -144,6 +144,7 @@ ol, ul, li
 	padding: 0.6em 0;
 	background-color: #f0f0f0;
 	font-size: 80%;
+	color: black;
 }
 .innavbar {
 	max-width: 1000px;
